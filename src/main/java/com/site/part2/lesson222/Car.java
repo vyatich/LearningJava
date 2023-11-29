@@ -1,6 +1,6 @@
 package com.site.part2.lesson222;
 
-public abstract class Car {
+ abstract class Car {
 
     protected int cost;
     protected Engine engine;
@@ -34,7 +34,7 @@ public abstract class Car {
         System.out.println(this.getClass().getSimpleName());
     }
 
-    public static class Engine {
+    private static class Engine {
 
         protected double power;
 
